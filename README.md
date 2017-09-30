@@ -13,7 +13,7 @@ In DC, there are  buildings that are rent-stabilized and not, where in the first
   * Comparing two bedrooms and one bedrooms in a geographic location.
 
 ***
-# Data Set
+# Data
 ***
 ### Limitation: Hard to create a geocode from the datase
 ###

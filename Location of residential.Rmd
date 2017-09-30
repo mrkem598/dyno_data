@@ -1,0 +1,51 @@
+---
+title: "Location of residentials"
+author: "Yijia Chen"
+date: "30/09/2017"
+output: html_document
+---
+
+```{r}
+#setwd("/Users/Yijia/Documents/Coding/R/data")
+residential <- data.frame(read.csv("cama_residential.csv", header = TRUE))
+names(residential)
+summary(residential)
+address <- data.frame(read.csv("AddressPt.csv", header = TRUE))
+
+#Drop unused from address
+drops <- c("SMD_2012","SMD_2002","ANC_2012","ANC_2002","WARD_2012","WARD_2002","CITY","WARD","SE_ANNO_CAD_DATA","HOTSPOT","STATE","CENSUS_BLOCK","NEWCOMMSELECT06","CENSUS_BLOCKGROUP","CFSA_NAME","FOCUS_IMPROVEMENT_AREA","WARD2012","RES_TYPE","ACTIVE_RES_OCCUPANCY_COUNT","NEWCOMMCANDIDATE","CENSUS_TRACT","POLDIST","ROC","PSA","SMD","ANC","VOTE_PRCNCT","FULLADDRESS","ENTRANCETYPE","NATIONALGRID","ASSESSMENT_NBHD","ASSESSMENT_SUBNBHD","QUADRANT")
+
+address <- address[ , !(names(address) %in% drops)]
+
+
+#Drop unused from residential
+drops1 <- c("FIREPLACES", "GIS_LAST_MOD_DTTM", "EXTWALL","INTWALL","ROOF","ROOD_D","KITCHENS","EXTWALL_D","INTWALL_D","CNDTN","YD_RMDL","SALE_NUM","GBA","BLOG_NUM","STRUCT","STRUCT_D","USECODE")
+
+residential <- residential[ , !(names(residential) %in% drops1)]
+
+#Merge residential and address by SSL
+total <- merge(residential,address,by="SSL")
+
+res_2b2b <- subset(total,total$BATHRM == 2 & total$BEDRM == 2)
+ggplot(data = res_2b2b) +
+  aes(LONGITUDE, LATITUDE)+
+  scale_color_gradientn(colors = brewer.pal(6, "Purples")) +
+  geom_point(pch = 16, alpha = 0.5) +
+  theme_void()
+
+res_1b1b <- subset(total,total$BATHRM == 1 & total$BEDRM == 1)
+ggplot(data = res_1b1b) +
+  aes(LONGITUDE, LATITUDE)+
+  scale_color_gradientn(colors = brewer.pal(6, "YlOrRd")) +
+  geom_point(pch = 16, alpha = 0.5) +
+  theme_void()
+
+ggplot() +
+  aes(LONGITUDE, LATITUDE)+
+  geom_point(data = res_2b2b, pch = 16, color = "grey50") +
+  geom_point(data = res_1b1b, pch = 16, color = "black") +
+  theme_void()
+
+```
+
+

@@ -30,7 +30,7 @@ In the above map the darker dot is representing the two bedrooms in the District
 ### The horizontal bar graph for data consisting of price of bedroom with different facilities will be as follow using tabulo.
 ![rent](https://user-images.githubusercontent.com/23619819/31048992-178a7746-a5f8-11e7-997c-821dfa609377.png)
 
-According to our data set in D.C there are 944 appartments with warm or cool, 48 appartments with heating pump and the majority 1,104 are with forced air heating system.
+According to our data set there are 944 appartments with heat and air conditioning, 48 appartments use heating pump and the majority 1,104 use forced air heating system.
 
 ***
 ## Contribute your code
@@ -58,3 +58,20 @@ $ git add <your_filename> # adds the filename for tracking in your Git repositor
 $ git commit # a text editing software will popup and you can add a commit message there
 $ git push origin master # push your commit from Git to Github
 ```
+This analysis can be used to expand the research for apartment density in Washington D.C. based on apartment size and price range. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

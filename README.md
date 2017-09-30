@@ -4,7 +4,7 @@
 Dyno data group contains the following individual who happened to work on DC Rent Stabilization project for Deloitte 2017 Hacking
 * Moh Kemal
 * Sania Choudhury
-* Yiji Aceline
+* Yijia Chen
 
 ***
 # Background

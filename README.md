@@ -9,4 +9,7 @@ Dyno data group contains the following individual who happened to work on DC Ren
 In DC, there are  buildings that are rent-stabilized and not, where in the first one rent cannot be raised beyond certain limits.
 
 ***
-#
+# Data Set
+***
+### Limitation: Hard to create a geocode from the datase
+### 

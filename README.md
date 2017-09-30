@@ -58,20 +58,8 @@ $ git add <your_filename> # adds the filename for tracking in your Git repositor
 $ git commit # a text editing software will popup and you can add a commit message there
 $ git push origin master # push your commit from Git to Github
 ```
-This analysis can be used to expand the research for apartment density in Washington D.C. based on apartment size and price range. 
+***
+# Future Goal
+***
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### This analysis can be used to expand the research for apartment density in Washington D.C. based on apartment size and price range. 

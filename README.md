@@ -25,5 +25,9 @@ In DC, there are  buildings that are rent-stabilized and not, where in the first
 ### When we compare two bedrooms and one bedrooms in a DC  geographic location the following result created.
 <img width="828" alt="location of residentials" src="https://user-images.githubusercontent.com/23619819/31048991-160654da-a5f8-11e7-9103-0d0cf1d8dcce.png">
 
+In the above map the darker dot is representing the two bedrooms in the District and the lighter dots are single bedroom.
+
 ### The horizontal bar graph for data consisting of price of bedroom with different facilities will be as follow using tabulo.
 ![rent](https://user-images.githubusercontent.com/23619819/31048992-178a7746-a5f8-11e7-997c-821dfa609377.png)
+
+According to our data set in D.C there are 944 appartments with warm or cool, 48 appartments with heating pump and the majority 1,104 are with forced air heating system.

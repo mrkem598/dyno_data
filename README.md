@@ -16,4 +16,4 @@ In DC, there are  buildings that are rent-stabilized and not, where in the first
 # Data Set
 ***
 ### Limitation: Price of the residentials is skewed.
-###
+### Data is hard to clean. 

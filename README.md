@@ -7,10 +7,12 @@ Dyno data group contains the following individual who happened to work on DC Ren
 * Yijia Chen
 
 ***
-# Background
+# Background & Objectives from the Data Analysis
 ***
-In DC, there are  buildings that are rent-stabilized and not, where in the first one rent cannot be raised beyond certain limits. In this project we are going to answer the following research questions in DC:
-  * Comparing two bedrooms and one bedrooms in a geographic location.
+In DC, there are  buildings that are rent-stabilized and not, where in the first one rent cannot be raised beyond certain limits.  To look into historic RENT stabilization data to gain insight that can be used to improve rent situation.
+• Determine the best inspector resource allocation in an effective and efficient
+mannerIn this project we are going to answer the following research questions in DC:
+  * Develop a models that compare two bedrooms and one bedrooms in a geographic location.
   * We also created a horizontal bar graph using tabula the data consisting of price of bedroom with different facilities.
 
 ***
@@ -62,4 +64,4 @@ $ git push origin master # push your commit from Git to Github
 # Future Goal
 ***
 
-#### This analysis can be used to expand the research for apartment density in Washington D.C. based on apartment size and price range. 
+#### This is a very rich data and many different types of models/applications can be gleaned from it by adding Census, Weather and Geographic datasets. Cleaning the data took the longest - there is still more cleaning yet to be done. 
